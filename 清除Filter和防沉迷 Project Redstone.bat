@@ -49,6 +49,7 @@ echo 稍等
 echo 注:检测文件存不存在
 ping -n 2 127.0.0.1>nul
 if exist "C:\MCLdownload\game\.minecraft\mods\4618419806087972149@3@15.jar"  (echo 失败,可能mc已加载mod) else (echo 可能清理成功)
+echo https://github.com/kiilk/Remove-mod/ 
 pause
 goto memu
 :2
