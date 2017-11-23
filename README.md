@@ -9,3 +9,5 @@ https://github.com/kiilk/Remove-mod/releases
 上面的链接会持续更新。
 
 没什么要说了吧。
+
+用于Netease mc
