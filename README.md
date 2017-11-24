@@ -11,3 +11,5 @@ https://github.com/kiilk/Remove-mod/releases
 没什么要说了吧。
 
 用于Netease mc
+
+这是图片库，没什么好看的，转到master分支吧。。
