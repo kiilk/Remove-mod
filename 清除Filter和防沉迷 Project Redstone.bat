@@ -34,13 +34,7 @@ echo 正在检测mc
 goto tasklist
 :tasklist
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto tasklist) else (goto 历史的进程（滑稽）)
-:历史的进程（滑稽）
-echo 正在等待启动游戏
-goto tasklist2
-:tasklist2
-tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto tasklist2) else (goto 清理mod)
+if errorlevel 1 (goto tasklist) else (goto 清理mod)
 :清理mod
 del /s /f /q 4618419806087972149@3@15.jar
 del /s /f /q 4618827437296985101@3@15.jar
