@@ -6,7 +6,7 @@ hmmm..
 至于怎么用，你们应该懂了吧。。
 ![Release链接](https://github.com/kiilk/Remove-mod/releases)
 
-上面的链接会更新。
+上面链接里的版本会~~持续~~更新。
 
 没什么要说了吧。
 
