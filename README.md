@@ -21,4 +21,7 @@ hmmm..
 ![233](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%8D%95%E8%8E%B7.PNG)
 把圈起来的的两个冒号删掉即可
 
+就是这个
+>~~::~~del /s /f /q 4618827437296985101@3@15.jar
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可
