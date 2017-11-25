@@ -26,4 +26,4 @@ hmmm..
 就是这个
 >::del /s /f /q 4618827437296985101@3@15.jar
 
-[browse the code](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
+[Browse the code](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
