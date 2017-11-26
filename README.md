@@ -21,13 +21,14 @@ hmmm..
 有问题可以写Issuse
 我会看的
 
+[**Browse the code**](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
+
+# 注意事项
 ![233](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%8D%95%E8%8E%B7.PNG)
 把圈起来的的两个冒号删掉即可
 
 就是这个
 >::del /s /f /q 4618827437296985101@3@15.jar
-
-[**Browse the code**](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
 
 # 如何使用
 1是自动清除mod
@@ -36,4 +37,4 @@ hmmm..
 
 可能会失败
 
-成功了就Enjoy吧!
+成功了就享受吧
