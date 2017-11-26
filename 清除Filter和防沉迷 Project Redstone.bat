@@ -1,49 +1,50 @@
-::æ­¤ç‰ˆæœ¬ä¸º1.0.3.2 kiilkåå¯¹æ‰€æœ‰hacker
+::´Ë°æ±¾Îª1.0.3.2 kiilk·´¶ÔËùÓĞhacker
 ::Redstone 1
-:: ..hmmm ä¼šç”¨äº†å§ï¼Ÿ
+:: ..hmmm »áÓÃÁË°É£¿
 @echo off
-::ä¸‹é¢ä¸¤è¡Œçš„å‚æ•°æ¥è‡ªlaod
+::ÏÂÃæÁ½ĞĞµÄ²ÎÊıÀ´×Ôlaod
 color 2F
 mode con lines=30 cols=60
 :://
-::è¿›å…¥ç›®å½•
+::½øÈëÄ¿Â¼
 cd C:\
 cd MCLdownload
 cd game
 cd .minecraft
 cd mods
-title Remove è¿‡æ»¤å™¨å’Œé˜²æ²‰è¿· Project Redstone by kiilk
+title Remove ¹ıÂËÆ÷ºÍ·À³ÁÃÔ Project Redstone by kiilk
 :memu
 cls
-echo æŒ‰1æ¸…é™¤mod
-echo æŒ‰2ç»“æŸmc
-echo æŒ‰3äººå·¥æ¸…é™¤mod
-echo æŒ‰4æŸ¥çœ‹æ›´æ–°äº†ä»€ä¹ˆ
-echo æ³¨ï¼šè¾“å…¥1ï¼Œä¼šè‡ªåŠ¨æ£€æŸ¥mc
-echo è‡ªåŠ¨æ¸…é™¤modæˆåŠŸç‡å·²æé«˜ï¼
-echo è¯·åé¦ˆç»™æˆ‘Issuse :)
-set /p yn=è¾“å…¥æ•°å­—:
+echo °´1Çå³ımod
+echo °´2½áÊømc
+echo °´3ÈË¹¤Çå³ımod
+echo °´4²é¿´¸üĞÂÁËÊ²Ã´
+echo °´5²é¿´kiilkµÄgithubµØÖ·
+echo ×¢£ºÊäÈë1£¬»á×Ô¶¯¼ì²émc
+echo ×Ô¶¯Çå³ımod³É¹¦ÂÊÒÑÌá¸ß£¡
+echo Çë·´À¡¸øÎÒIssuse :)
+set /p yn=ÊäÈëÊı×Ö:
 if /i "%yn%"=="1"  goto 1
 if /i "%yn%"=="2" goto 2
-if /i "%yn%"=="3" goto äººå·¥
-if /i "%yn%"=="4" goto æ›´æ–°æ—¥å¿—
+if /i "%yn%"=="3" goto ÈË¹¤
+if /i "%yn%"=="4" goto ¸üĞÂÈÕÖ¾
+if /i "%yn%"=="5" goto githubµØÖ·
 if not "%yn%"=="1*2*3" goto error
 :1
-::æ£€æŸ¥mc
-echo æ­£åœ¨æ£€æµ‹mc
+::¼ì²émc
+echo ÕıÔÚ¼ì²âmc
 goto tasklist
 :tasklist
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto tasklist) else (goto æ¸…ç†mod)
-:æ¸…ç†mod
+if errorlevel 1 (goto tasklist) else (goto ÇåÀímod)
+:ÇåÀímod
 del /s /f /q 4618419806087972149@3@15.jar
-del /s /f /q 4618827437296985101@3@15.jar
-echo æ£€æŸ¥æˆåŠŸä¸æˆåŠŸ
-echo ç¨ç­‰
-echo æ³¨:æ£€æµ‹æ–‡ä»¶å­˜ä¸å­˜åœ¨
+::del /s /f /q 4618827437296985101@3@15.jar
+echo ¼ì²é³É¹¦²»³É¹¦
+echo ÉÔµÈ
+echo ×¢:¼ì²âÎÄ¼ş´æ²»´æÔÚ
 ping -n 2 127.0.0.1>nul
-if exist "C:\MCLdownload\game\.minecraft\mods\4618419806087972149@3@15.jar"  (echo å¤±è´¥,å¯èƒ½mcå·²åŠ è½½mod) else (echo å¯èƒ½æ¸…ç†æˆåŠŸ)
-echo https://github.com/kiilk/Remove-mod/ 
+if exist "C:\MCLdownload\game\.minecraft\mods\4618419806087972149@3@15.jar"  (echo Ê§°Ü,¿ÉÄÜmcÒÑ¼ÓÔØmod) else (echo ¿ÉÄÜÇåÀí³É¹¦)
 pause
 goto memu
 :2
@@ -52,26 +53,30 @@ if errorlevel 1 (goto mcbu) else (goto 3)
 :3
 taskkill /f /im javaw.exe
 ping -n 2 127.0.0.1>nul
-echo å·²å®Œæˆã€‚ã€‚
+echo ÒÑÍê³É¡£¡£
 pause
 goto memu
 :error
-echo é”™è¯¯çš„æ•°å­—ï¼Œåˆ«ä¹±è¾“
+echo ´íÎóµÄÊı×Ö£¬±ğÂÒÊä
 pause
 goto memu
 :mcbu
-echo mcä¸å­˜åœ¨
+echo mc²»´æÔÚ
 pause
 goto memu
-:äººå·¥ 
+:ÈË¹¤ 
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto mcbu) else (goto äººå·¥2)
-:äººå·¥2
+if errorlevel 1 (goto mcbu) else (goto ÈË¹¤2)
+:ÈË¹¤2
 del /s /f /q 4618419806087972149@3@15.jar
-del /s /f /q 4618827437296985101@3@15.jar
+::del /s /f /q 4618827437296985101@3@15.jar
 pause
 goto memu
-:æ›´æ–°æ—¥å¿—
-echo ä¸»è¦å¢åŠ äº†è‡ªåŠ¨æ¸…é™¤modçš„æˆåŠŸæ€§ï¼ŒåŒæ—¶ä¹Ÿå˜å¡äº†ã€‚ã€‚
+:¸üĞÂÈÕÖ¾
+echo Ö÷ÒªÔö¼ÓÁË×Ô¶¯Çå³ımodµÄ³É¹¦ĞÔ£¬Í¬Ê±Ò²±ä¿¨ÁË¡£¡£
+pause
+goto memu
+:githubµØÖ·
+echo github.com/kiilk/Remove-mod
 pause
 goto memu
