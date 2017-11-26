@@ -2,6 +2,7 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可
 
 --- 
+# 简介
 
 这是kiilk的仓库
 
@@ -26,4 +27,13 @@ hmmm..
 就是这个
 >::del /s /f /q 4618827437296985101@3@15.jar
 
-[Browse the code](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
+[**Browse the code**](https://github.com/kiilk/Remove-mod/blob/master/%E6%B8%85%E9%99%A4Filter%E5%92%8C%E9%98%B2%E6%B2%89%E8%BF%B7%20Project%20Redstone.bat)
+
+# 如何使用
+1是自动清除mod
+
+步骤是:点启动（不是启动游戏）->回到cmd窗口按1并Enter->启动游戏
+
+可能会失败
+
+Enjoy!
