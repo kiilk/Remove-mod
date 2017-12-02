@@ -1,4 +1,4 @@
-::Verison 1.0.3.2 
+::Verison 1.0.3.2.1 
 ::Redstone 1
 :: ..hmmm
 @echo off
@@ -17,31 +17,31 @@ title Remove filter and anti-addiction Project Redstone by kiilk
 
 :memu
 cls
-echo [1]×Ô¶¯¼ì²émc²¢Çå³ımod[¼òµ¥]
-echo [2]½áÊømc
-echo [3]ÁíÍâÒ»ÖÖÇå³ı·½·¨[ÄÑ¶ÈÖĞµÈ]
-echo [4]²é¿´¸üĞÂÁËÊ²Ã´
-echo [5]²é¿´kiilkµÄgithubµØÖ·
-echo ×¢£ºÊäÈë1£¬»á×Ô¶¯¼ì²émc
-echo ×Ô¶¯Çå³ımod³É¹¦ÂÊÒÑÌá¸ß£¡
+echo [1]è‡ªåŠ¨æ£€æŸ¥mcå¹¶æ¸…é™¤mod[ç®€å•]
+echo [2]ç»“æŸmc
+echo [3]å¦å¤–ä¸€ç§æ¸…é™¤æ–¹æ³•[éš¾åº¦ä¸­ç­‰]
+echo [4]æŸ¥çœ‹æ›´æ–°äº†ä»€ä¹ˆ
+echo [5]æŸ¥çœ‹kiilkçš„githubåœ°å€
+echo æ³¨ï¼šè¾“å…¥1ï¼Œä¼šè‡ªåŠ¨æ£€æŸ¥mc
+echo è‡ªåŠ¨æ¸…é™¤modæˆåŠŸç‡å·²æé«˜ï¼
 echo Please report issuse 
-set /p yn=ÊäÈëÊı×Ö:
+set /p yn=è¾“å…¥æ•°å­—:
 if /i "%yn%"=="1"  goto 1
 if /i "%yn%"=="2" goto 2
-if /i "%yn%"=="3" goto ÈË¹¤
-if /i "%yn%"=="4" goto ¸üĞÂÈÕÖ¾
+if /i "%yn%"=="3" goto äººå·¥
+if /i "%yn%"=="4" goto æ›´æ–°æ—¥å¿—
 if /i "%yn%"=="5" goto github
 if not "%yn%"=="1*2*3*" goto error
 
 :1
-::¼ì²émc
+::æ£€æŸ¥mc
 echo Checking the Minecraft process...
 goto tasklist
 :tasklist
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto tasklist) else (goto ÇåÀímod)
+if errorlevel 1 (goto tasklist) else (goto æ¸…ç†mod)
 
-:ÇåÀímod
+:æ¸…ç†mod
 del /s /f /q 4618419806087972149@3@15.jar
 ::del /s /f /q 4618827437296985101@3@15.jar
 echo  Complete
@@ -71,19 +71,19 @@ echo "javaw.exe"process not exist..
 pause
 goto memu
 
-:ÈË¹¤ 
+:äººå·¥ 
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto mcbu) else (goto ÈË¹¤2)
+if errorlevel 1 (goto mcbu) else (goto äººå·¥2)
 
-:ÈË¹¤2
+:äººå·¥2
 del /s /f /q 4618419806087972149@3@15.jar
 ::del /s /f /q 4618827437296985101@3@15.jar
 
 pause
 goto memu
 
-:¸üĞÂÈÕÖ¾
-echo Ö÷ÒªÔö¼ÓÁË×Ô¶¯Çå³ımodµÄ³É¹¦ĞÔ£¬Í¬Ê±Ò²±ä¿¨ÁË¡£¡£
+:æ›´æ–°æ—¥å¿—
+echo ä¸»è¦å¢åŠ äº†è‡ªåŠ¨æ¸…é™¤modçš„æˆåŠŸæ€§ï¼ŒåŒæ—¶ä¹Ÿå˜å¡äº†ã€‚ã€‚
 pause
 goto memu
 
