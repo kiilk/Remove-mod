@@ -67,7 +67,7 @@ pause
 goto memu
 
 :mcbu
-echo "javaw.exe"process not exist..
+echo "javaw.exe"tan90°
 pause
 goto memu
 
