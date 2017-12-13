@@ -15,7 +15,7 @@ hmmm..
 
 **用于Netease mc**
 
-![图片加载失败](https://raw.githubusercontent.com/kiilk/Remove-mod/6f1ed5acd3326604a83c1dc73b0f7be1882fd3a6/%E6%88%90%E5%8A%9F%E5%9B%BE.PNG)
+![图片加载失败](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%88%90%E5%8A%9F%E5%9B%BE.psd)
 这是成功图:)
 
 有问题可以写Issuse
@@ -53,3 +53,5 @@ hmmm..
 **被害者**
 
 # 300000人
+
+***一起祭奠***
