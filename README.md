@@ -15,7 +15,7 @@ hmmm..
 
 **用于Netease mc**
 
-![图片加载失败](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%88%90%E5%8A%9F%E5%9B%BE.psd)
+![图片加载失败](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%88%90%E5%8A%9F%E5%9B%BE.PNG)
 这是成功图:)
 
 有问题可以写Issuse
