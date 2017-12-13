@@ -45,3 +45,11 @@ hmmm..
 ***南京大虐殺の80周年、歴史を忘れないでください***
 
 ***80th anniversary of the Nanjing Massacre, do not forget history***
+
+**遇难者**
+
+**Victims**
+
+**被害者**
+
+***300000***
