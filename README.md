@@ -40,4 +40,4 @@ hmmm..
 成功了就享受吧
 
 # 彩蛋
-![i](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/322.png)
+![i](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/322.jpg)
