@@ -81,7 +81,7 @@ tasklist|find /i "javaw.exe"
 if errorlevel 1 (goto mcbu) else (goto 人工2)
 
 :人工2
-del /s /f /q 4618419806087972149@3@15.jar
+del /s /f /q 4619774556351054392@3@15.jar
 ::del /s /f /q 4618827437296985101@3@15.jar
 
 pause
@@ -89,6 +89,7 @@ goto memu
 
 :更新日志
 echo 修复了一些bug
+echo 增加了功能
 pause
 goto memu
 
