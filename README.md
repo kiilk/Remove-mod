@@ -39,19 +39,5 @@ hmmm..
 
 成功了就享受吧
 
-# 最后
-***南京大屠杀80周年,勿忘国耻***
-
-***南京大虐殺の80周年、歴史を忘れないでください***
-
-***80th anniversary of the Nanjing Massacre, do not forget history***
-
-**遇难者**
-
-**Victims**
-
-**被害者**
-
-# 300000人
-
-***一起祭奠***
+# 彩蛋
+![i](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/233.png)
