@@ -9,7 +9,7 @@ hmmm..
 
 至于怎么用，你们应该懂了吧。。
 
-[![npm](https://img.shields.io/npm/dm/localeval.svg?style=for-the-badge)](https://github.com/kiilk/Remove-mod/releases)
+![下载地址](https://github.com/kiilk/Remove-mod/releases)
 
 ***上面链接里的版本会~~持续~~更新。***
 
