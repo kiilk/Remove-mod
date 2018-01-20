@@ -13,7 +13,7 @@ hmmm..
 
 ***上面链接里的版本会~~持续~~更新。***
 
-**用于Netease mc**
+**用于Netease Minecraft**
 
 ![图片加载失败](https://github.com/kiilk/Remove-mod/blob/kiilk%E7%9A%84%E5%9B%BE%E7%89%87/%E6%88%90%E5%8A%9F%E5%9B%BE.PNG)
 这是成功图:)
