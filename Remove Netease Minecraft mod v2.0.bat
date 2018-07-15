@@ -1,4 +1,4 @@
-::Verison 1.0.4
+::Verison 2.0
 ::Redstone 1
 :: ..hmmm
 @echo off
@@ -8,45 +8,40 @@ mode con lines=30 cols=60
 :://
 
 ::Module
-C:
-cd C:\
-cd MCLdownload
-cd game
-cd .minecraft
-cd mods
 title Remove Netease mod v2.0 by kiilk
 
 :memu
 cls
-echo [1]×Ô¶¯¼ì²émc²¢Çå³ımod[¼òµ¥]
-echo [2]½áÊømc
-echo [3]ÁíÍâÒ»ÖÖÇå³ı·½·¨[ÄÑ¶ÈÖĞµÈ]
-echo [4]²é¿´¸üĞÂÁËÊ²Ã´
-echo [5]²é¿´kiilkµÄgithubµØÖ·
-echo [6]²é¿´modÁĞ±í
-echo ×¢£ºÊäÈë1£¬»á×Ô¶¯¼ì²émc
-echo ×Ô¶¯Çå³ımod³É¹¦ÂÊÒÑÌá¸ß£¡
-echo Çë»Ø±¨ÎÊÌâ
-set /p yn=ÊäÈëÊı×Ö:
+echo è¯·æŠŠæ­¤æ–‡ä»¶ä¸¢åˆ°MODæ–‡ä»¶å¤¹
+echo [1]è‡ªåŠ¨æ£€æŸ¥mcå¹¶æ¸…é™¤mod[ç®€å•]
+echo [2]ç»“æŸmc
+echo [3]å¦å¤–ä¸€ç§æ¸…é™¤æ–¹æ³•[éš¾åº¦ä¸­ç­‰]
+echo [4]æŸ¥çœ‹æ›´æ–°äº†ä»€ä¹ˆ
+echo [5]æŸ¥çœ‹kiilkçš„githubåœ°å€
+echo [6]æŸ¥çœ‹modåˆ—è¡¨
+echo æ³¨ï¼šè¾“å…¥1ï¼Œä¼šè‡ªåŠ¨æ£€æŸ¥mc
+echo è‡ªåŠ¨æ¸…é™¤modæˆåŠŸç‡å·²æé«˜ï¼
+echo è¯·å›æŠ¥é—®é¢˜
+set /p yn=è¾“å…¥æ•°å­—:
 if /i "%yn%"=="1"  goto 1
 if /i "%yn%"=="2" goto 2
-if /i "%yn%"=="3" goto ÈË¹¤
-if /i "%yn%"=="4" goto ¸üĞÂÈÕÖ¾
+if /i "%yn%"=="3" goto äººå·¥
+if /i "%yn%"=="4" goto æ›´æ–°æ—¥å¿—
 if /i "%yn%"=="5" goto github
 if /i "%yn%"=="6" goto mod list
 if not "%yn%"=="1*2*3*" goto error
 
 :1
-::¼ì²émc
-echo ¼ì²émc½ø³ÌÖĞ...
+::æ£€æŸ¥mc
+echo æ£€æŸ¥mcè¿›ç¨‹ä¸­...
 goto tasklist
 :tasklist
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto tasklist) else (goto ÇåÀímod)
+if errorlevel 1 (goto tasklist) else (goto æ¸…ç†mod)
 
-:ÇåÀímod
+:æ¸…ç†mod
 del /s /f /q 4619774556351054392@3@15.jar
-REM delÇ°ÃæµÄÁ½¸öÃ°ºÅ¿ÉÈ¥µô
+REM delå‰é¢çš„ä¸¤ä¸ªå†’å·å¯å»æ‰
 ::del /s /f /q 4618827437296985101@3@15.jar
 REM //
 echo  Complete
@@ -72,23 +67,23 @@ pause
 goto memu
 
 :mcbu
-echo "javaw.exe"²»´æÔÚ
+echo "javaw.exe"ä¸å­˜åœ¨
 pause
 goto memu
 
-:ÈË¹¤ 
+:äººå·¥ 
 tasklist|find /i "javaw.exe"
-if errorlevel 1 (goto mcbu) else (goto ÈË¹¤2)
+if errorlevel 1 (goto mcbu) else (goto äººå·¥2)
 
-:ÈË¹¤2
+:äººå·¥2
 del /s /f /q 4619774556351054392@3@15.jar
 ::del /s /f /q 4619774556351054392@3@15.jar
 
 pause
 goto memu
 
-:¸üĞÂÈÕÖ¾
-echo ĞŞ¸´ÁËÒ»Ğ©bug
+:æ›´æ–°æ—¥å¿—
+echo ä¿®å¤äº†ä¸€äº›bug
 pause
 goto memu
 
@@ -103,8 +98,8 @@ for %%i in (*.jar) do (
 call echo %%i
 set /a a+=1
 )
-echo ÓĞ%a%¸ömod
-if exist "4619774556351054392@3@15.jar" (echo ¿ÉÓÃ) else (²»¿ÉÓÃ)
-if exist "4619774556351054392@3@15.jar" (echo ¿ÉÓÃ) else (²»¿ÉÓÃ)
+echo æœ‰%a%ä¸ªmod
+if exist "4619774556351054392@3@15.jar" (echo å¯ç”¨) else (ä¸å¯ç”¨)
+if exist "4619774556351054392@3@15.jar" (echo å¯ç”¨) else (ä¸å¯ç”¨)
 pause
 goto memu 
